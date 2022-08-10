@@ -1,0 +1,112 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: rgb(238, 234, 23);
+  background-image: url(https://cdn.discordapp.com/attachments/948914531659317249/1002256154946191430/487248.jpg);
+  font-size: 1.6rem;
+  text-shadow: 0 0 5px #000000;
+  font-family: "Poppins", sans-serif;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-principal {
+  /* Display: é o atributo responsável pela disposição dos elementos na tela. */
+  /* Flex: disposição flexível dos itens na tela. Ajuste automático. */
+  display: flex;
+  /* vh significa view height */
+  height: 100vh;
+}
+
+.container {
+  width: 50%;
+}
+
+.centralizar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.principal {
+  /* Padding: define uma a distância entre o conteúdo de um elemento e suas bordas */
+  padding: 8rem;
+}
+
+.principal-logo {
+  font-size: 6rem;
+}
+
+.principal-titulo {
+  font-size: 3rem;
+  color: #d1d1d1;
+}
+
+.principal-descriçao {
+  margin: 3rem 0;
+  color: #d1d1d1;
+}
+
+.botao {
+  width: 100%;
+  height: 6rem;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.6rem;
+  background: none;
+  background-color: #112047;
+  color: #eeea17;
+  transition: all ease-in-out 1s;
+}
+
+.botao:hover {
+  transform: scale(1.05);
+  background-color: #112047;
+  color: #eeea17;
+}
+
+.botoes {
+  gap: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #ffffff;
+  /* Largura máxima */
+  max-width: 60rem;
+  /* Cabeçalhou passou do tamanho do card, daí a necessidade do overflow */
+  overflow: hidden;
+}
+
+.card-cabecalho {
+  background-image: url(https://cdn.discordapp.com/attachments/948914531659317249/979350976483967016/unknown.png);
+  background-color: #112047;
+  height: 25rem;
+  font-weight: 700;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0.5rem 0 2rem 0;
+}
+
+.card-titulo {
+  font-size: 2.5rem;
+}
+
+.card-conteudo {
+  color: #000000;
+  padding: 3rem 1.5rem;
+  min-height: 14rem;
+}
+
+.card,
+.botao {
+  border-radius: 1.5rem;
+}
+
+.blur {
+  filter: blur(5px);
+}
